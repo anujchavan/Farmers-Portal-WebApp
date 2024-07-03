@@ -15,9 +15,9 @@ const Home = () => {
             <h6 style={{ color: '#FFCA2C' }}>Global Operating System for Agtech</h6>
             <p className='mt-3 para'>The platform is targeted at supporting small farmers to record their farming activities, create and receive detailed.</p>
             <div className='mt-2 feature'>
-              <span><img src={checkCircle} className='pe-2' />Setup in Seconds</span>
-              <span className='ps-4'><img src={checkCircle} className='pe-2' />No Credit Card</span>
-              <span className='ps-4'><img src={checkCircle} className='pe-2' />Cancel Anytime</span>
+              <span><img src={checkCircle} alt='Tick Mark' className='pe-2' />Setup in Seconds</span>
+              <span className='ps-4'><img src={checkCircle} alt='Tick Mark' className='pe-2' />No Credit Card</span>
+              <span className='ps-4'><img src={checkCircle} alt='Tick Mark' className='pe-2' />Cancel Anytime</span>
             </div>
             <div className='mt-4 w-100 d-flex'>
               <p className='p-2 px-4 viewmore1'>View More</p>
