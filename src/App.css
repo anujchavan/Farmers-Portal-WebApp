@@ -1,0 +1,321 @@
+.App {
+  background-color: #071b0f;
+  color: white;
+}
+
+svg #Layer_1 {
+  fill: white !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  display: flex;
+  background-color: #247c4c;
+  height: 130px;
+  width: 120px;
+  justify-content: center;
+  border-radius: 0 0 60px 60px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.viewmore1 {
+  background-color: #2c780d !important;
+  border-radius: 5px !important;
+  cursor: pointer;
+}
+
+.viewmorebutton1 {
+  background-color: #2c780d !important;
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.viewmore2 {
+  border: 1px solid white !important;
+  border-radius: 5px !important;
+  margin-left: 10px !important;
+  cursor: pointer;
+}
+
+.viewmorebutton2 {
+  border: 1px solid white !important;
+  border-radius: 5px !important;
+  margin-left: 10px !important;
+  background-color: transparent !important;
+}
+
+.col2 {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  height: 490px;
+  border-radius: 50px 0 0 50px;
+}
+
+.para {
+  width: 85%;
+}
+
+.col1 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.feature {
+  font-size: 14px;
+  color: #ffca2c;
+}
+
+.imagePosition {
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  margin-left: 0;
+  height: 130px;
+}
+
+.textColor {
+  color: #ffca2c !important;
+}
+
+.aboutContainer {
+  font-size: 14px;
+  padding: 50px 0px;
+}
+
+.check {
+  color: #2c780d;
+  padding-right: 10px;
+}
+
+.imageContainer {
+  padding: 50px 0px;
+}
+
+.collage {
+  min-height: 460px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.collageText {
+  background-color: #2c780d;
+  margin: 1px !important;
+  border-top-left-radius: 50px;
+  padding: 40px 0px 0px 15px !important;
+}
+
+.specialServices {
+  font-size: 14px;
+}
+
+.cardStyle {
+  background-color: #0a1e0f !important;
+  color: white !important;
+  align-items: center;
+}
+
+.servicesImage {
+  width: 318px !important;
+  height: 192px !important;
+  margin-top: 16px !important;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #0a1e0f;
+  font-size: 14px;
+}
+
+.columnStyle {
+  padding: 0px 6px;
+}
+
+.whatWeDo {
+  position: relative;
+}
+
+.farmingImage {
+  position: absolute;
+  transform: translateX(-22%);
+  height: 500px;
+  border-radius: 0 50px 50px 0;
+  z-index: 1;
+}
+
+.paragraph {
+  z-index: 1;
+  position: absolute;
+  background-color: #ffca2c;
+  color: black;
+  border-radius: 0 0 20px 20px;
+  top: 0;
+}
+
+.col-2 {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.whatWeDoContainer {
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  height: 100px !important;
+  margin-top: -14% !important;
+  position: relative !important;
+  z-index: 99 !important;
+  margin-left: 120px !important;
+  margin-right: 120px !important;
+}
+
+.accomplishment {
+  background-color: #2c780d;
+}
+
+.achievements {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+.goodies {
+  background-color: #2c780d;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.workImage3 {
+  height: 195px;
+  width: 195px;
+  border-radius: 50%;
+}
+
+.workImage {
+  margin: 20px;
+}
+
+.curveLine {
+  width: 1100px;
+  position: absolute;
+  z-index: -1;
+}
+
+.workDescription {
+  width: 195px;
+  margin: 0 20px;
+}
+
+.spanText {
+  font-size: 14px;
+}
+
+.workTitle {
+  position: relative;
+}
+
+.imageNumber {
+  position: absolute;
+  right: 35px;
+  bottom: 30px;
+  height: 35px;
+  width: 35px;
+  background-color: #ffca2c;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+}
+
+.quote {
+  height: 25px;
+}
+
+.call {
+  height: 500px;
+  border-radius: 0 60px 60px 0;
+  position: absolute;
+  left: -10%;
+}
+
+.contact {
+  min-height: 500px;
+}
+
+.contactUs {
+  color: black;
+  background-color: #ffca2c;
+  position: absolute;
+  padding: 15px;
+  border-radius: 0 0 20px 20px;
+}
+
+.reachUs {
+  font-size: 14px;
+}
+
+.inputText::placeholder {
+  color: white !important;
+  font-size: 14px !important;
+}
+
+.inputText {
+  background-color: transparent !important;
+  font-weight: lighter !important;
+  border-color: #2c780d !important;
+}
+
+.slick-dots li button:before {
+  color: #4aff00 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.rowSize {
+  min-height: 232px;
+}
